@@ -1,0 +1,11 @@
+MY COZY LIST V3
+================
+1. Décompresser le ZIP sur un ordinateur.
+2. Dans Netlify > ton site existant > Deploys, utiliser le déploiement manuel du dossier my-cozy-list-v3 (ne pas créer un nouveau site).
+3. Configurer TMDB_API_KEY dans Netlify > Site configuration > Environment variables. Utiliser une clé API v3 TMDB ou un jeton d'accès v4 TMDB. Ne jamais placer la clé dans index.html.
+4. Relancer le déploiement si nécessaire pour que la fonction prenne en compte la variable.
+5. Ouvrir l'URL principale du site dans Safari. Ajouter à l'écran d'accueil.
+
+Fonctionnalités : recherche Open Library avec couvertures, recherche TMDB via fonction Netlify avec affiches, lecture pages/% Kindle, notes, listes, sauvegarde JSON, sagas livres reconnues pour une sélection, sagas films TMDB quand collection disponible, ajout manuel de saga.
+
+LIMITES : le scan caméra dépend du support BarcodeDetector (peut être indisponible sur iPhone) ; dans ce cas saisir l'ISBN. Les sagas livres ne sont pas exhaustives. Les recommandations proposent des recherches guidées, pas encore un moteur personnalisé avancé. Les données restent locales au navigateur / domaine.
